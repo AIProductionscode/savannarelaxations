@@ -1,0 +1,326 @@
+/*Styling the logo*/
+.logo {
+    height: 70px;
+    margin-left: 10px;
+}
+
+/*Divider*/
+
+
+/*Styling the navbar*/
+.navbar {
+    letter-spacing: 1px;
+    background-color: #00baff;
+}
+
+/*Styling the links*/
+.navbar li a {
+    font-family: Anthony Hunter;
+    color: white;
+    font-size: 20px;
+    transition: ease-in-out 0.2s;
+}
+
+/*Styling the link hover*/
+.navbar li a:hover {
+    background-color: #0077ffb2;
+    color: white;
+}
+
+.navbar li a:active {
+    font-size: large;
+}
+
+/*Styling the dropdown menu*/
+.dropdown ul {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.397);
+    background-color: #0077ff6e;
+}
+
+/*Styling the sign in buttons*/
+.btn-signin {
+    background-color: #0077ff;
+    border-radius: 18px;
+    color: white;
+    margin-top: 9px;
+    padding-top: 9px;
+    font-family: nexa;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all ease-in-out 0.2s;
+}
+
+.btn-signin:hover {
+    color: white;
+    background-color: #0077ff;
+    box-shadow: 1px 3px 6px #0077ffb0;
+    transform: translate(0px, -5px);
+}
+
+/*Styling the signup*/
+.btn-signup {
+    border-radius: 18px;
+    color: #0077ff;
+    background-color: white;
+    margin-top: 9px;
+    padding-top: 9px;
+    font-family: nexa;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all ease-in-out 0.2s;
+}
+
+.btn-signup:hover {
+    color: #0077ff;
+    background-color: #f5f5f5;
+    box-shadow: 1px 3px 6px #0077ffb0;
+    transform: translate(0px, -5px);
+}
+
+
+/*Styling the carousel*/
+.carousel-item {
+    height: 85vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*Carousel 1*/
+.c1 {
+    background-image: url(image/1.jpg);
+}
+
+.c1 img {
+    padding-top: 40px;
+    padding-left: 70px;
+    height: 400px;
+    transition: ease-in-out 0.3s;
+}
+
+.c1 img:hover {
+    height: 450px;
+}
+
+/*Carousel 2*/
+.c2 {
+    text-align: center;
+    line-height: 120px;
+    font-family: nexa;
+    color: white;
+    font-size: 70px;
+    padding-top: 150px;
+    background-image: url(image/2.jpg);
+    text-shadow: 1.93px 2px 16px #00000036;
+}
+
+/*Carousel 3*/
+.c3 {
+    text-align: right;
+    line-height: 120px;
+    font-family: nexa;
+    color: white;
+    font-size: 70px;
+    padding-top: 30px;
+    background-image: url(image/2.jpg);
+    text-shadow: 1.93px 2px 16px #00000036;
+    background-image: url(image/33.jpg);
+}
+
+/*Carousel 2*/
+.c4 {
+    background-image: url(image/44.jpg);
+}
+
+/*Styling the hero*/
+.hero {
+    border-radius: 60px;
+    box-shadow: 2.5px 5px 20px rgba(0, 0, 0, 0.226);
+}
+
+.hero-title {
+    font-family: nexa;
+}
+
+.hero-paragraph {
+    font-family: nexa;
+}
+
+.btn-hero {
+    background-color: #00baff;
+    color: white;
+    font-family: nexa;
+    transition: ease-in-out 0.2s;
+}
+
+.btn-hero:hover {
+    color: white;
+    background-color: #0077ff;
+    box-shadow: 1px 3px 6px #0077ffb0;
+    transform: translate(0px, -5px);
+}
+
+/**Reservation Modal */
+/*Modal layout*/
+.modal-content {
+    background-image: url(image/pattern.png);
+    background-size: cover;
+
+
+}
+
+/*Modal title*/
+.modal-title {
+    color: #0077ff;
+    font-family: nexa;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/*Labels Style*/
+label {
+    color: #000000;
+    font-family: nexa;
+    font-size: 17px;
+}
+
+/*Input Style*/
+input.form-control {
+    background-color: #0077ff24;
+    box-shadow: 2px 3px 4px #0077ff2b;
+}
+
+/*Beach Seaction Styling*/
+.beaches {
+    background-image: url(image/pattern.png);
+    background-size: cover;
+}
+
+.her-2 {
+    background-image: url(image/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.her-4 {
+    background-image: url(image/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**Pricing*/
+
+.subscription {
+    background-image: url(image/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing {
+    font-family: nexa;
+}
+
+/*Pricing button*/
+.btn-subscribe {
+    background-color: #00baff;
+    color: white;
+    font-family: nexa;
+    transition: all ease-in-out 0.2s;
+}
+
+.btn-subscribe:hover {
+    color: white;
+    background-color: #0077ff;
+    box-shadow: 1px 3px 6px #0077ffb0;
+    transform: translate(0px, -5px);
+}
+
+/*Pricing Cards*/
+.card {
+    border-color: #00baff;
+    transition: all ease-in-out 0.2s;
+}
+
+.card-header {
+    background-color: #00baff;
+    transition: all ease-in-out 0.2s;
+}
+
+.card:hover {
+    border-color: #0077ff;
+}
+
+.card-header:hover {
+    color: white;
+    background-color: #0077ff;
+}
+
+/*Compare pricing*/
+/*Check icons*/
+.check {
+    color: #0077ff;
+    /*color: green;*/
+}
+/*cross icons*/
+.cross {
+    color: red;
+}
+
+/*Customer review section*/
+.cus-rev {
+    overflow: auto;
+    background-image: url(image/pattern.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: nexa;
+}
+
+/*Contact Us*/
+.contact {
+    background-color: #0077ff;
+}
+
+/*Contact Information*/
+.bi-geo-alt-fill, .bi-envelope-fill, .bi-telephone-fill {
+    color: white;
+}
+
+
+/*Prefooter*/
+.prefooter {
+    background-image: url(image/banner2.png);
+    background-size: cover;
+}
+
+/*Footer*/
+.footer-list {
+    font-family: nexa;
+}
+
+.c-r {
+    height: 60vh;
+} 
+
+/*About Us Section*/
+.About-Us {
+    background-image: url(image/banner6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 768px){
+    .c1 img {
+        padding-left: 50px;
+        height: 200px;
+    }
+    .c1 img:hover {
+        height: 250px;
+    }
+}
+/*brand color #00baff*/
+/*Typograpgy Anthony Huner & Nexa*/
+/**/
